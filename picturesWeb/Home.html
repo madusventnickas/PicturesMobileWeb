@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .searchBar {
+      height: 40px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .carouselContainer {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .carouselItem {
+      width: 150px;
+      height: 150px;
+      background-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Barra de Pesquisa -->
+    <input class="searchBar" type="text" placeholder="Pesquisar">
+
+    <!-- Carrosséis -->
+    <div class="carouselContainer">
+      <!-- Carrossel superior -->
+      <div style="display: flex;">
+        <div class="carouselItem">
+          <span>Carro 1</span>
+        </div>
+        <div class="carouselItem">
+          <span>Carro 2</span>
+        </div>
+      </div>
+
+      <!-- Carrossel inferior -->
+      <div style="display: flex;">
+        <div class="carouselItem">
+          <span>Carro 3</span>
+        </div>
+        <div class="carouselItem">
+          <span>Carro 4</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
